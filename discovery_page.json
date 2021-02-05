@@ -249,3 +249,17 @@
 
   ]
 }
+
+# def distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+#     DEG2RAD = 0.0174532925199432958  # PI / 180
+#     radius = 6378.
+#     latrad1 = lat1 * DEG2RAD
+#     lonrad1 = lon1 * DEG2RAD
+#     latrad2 = lat2 * DEG2RAD
+#     lonrad2 = lon2 * DEG2RAD
+#     k1 = sin((latrad1 - latrad2) / 2.)
+#     k2 = sin((lonrad1 - lonrad2) / 2.)
+#     dist = 2. * asin(sqrt((k1 * k1 + cos(latrad1) * cos(latrad2) * k2 * k2)))
+#     if dist < 0.:
+#         dist = dist + pi
+#     return dist * radius
